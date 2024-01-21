@@ -1,0 +1,160 @@
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+header button{
+    cursor: pointer;
+}
+
+.left-div{
+    margin-left: 120px;
+    width: 500px;
+    flex-shrink: 0;
+}
+
+
+
+.left-name{
+    color: #262626;
+    font-family: Cinzel;
+    font-size: 36px;
+    font-weight: 200;
+    z-index: 100;
+}
+.left-div-background{
+    position: absolute;
+    width: 147px;
+    height: 20px;
+    background: #4CE0D7;
+    top:60px;
+    z-index: -10;
+    left: 220px;
+}
+
+.right-div{
+    align-items: center;
+    width: 1200px;
+    font-style: normal;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+} 
+
+.right-div .button1{
+    font-family: Poppins;
+    font-size: 16px;
+    color: #262626;
+    line-height: normal;
+    border: none;
+    border-radius: 40px;
+    padding-left:30px;
+    padding-right:30px;
+    background-color: white;
+    transition: 0.15s;
+}
+
+.right-div .button1:hover{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3)
+}
+
+.contact-us-button{
+    border-radius: 40px;
+    background: #4CE0D7;
+    border:none;
+    width: 144px;
+    height: 46px;
+    color: #262626;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    transition: 0.15s;
+}
+
+.contact-us-button:hover{
+    box-shadow: 0px 0px 10px rgb(0, 136, 163)
+}
+
+.search-button{
+    background-color: white;
+    width: 54px;
+    padding-bottom: 10px;
+    padding-top: 12px;
+    border-radius: 25px;
+    transition: 0.15s;
+}
+
+.search-button:hover{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+
+.lux-ventus-magazine{
+    margin-left: 80px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+.photo1{
+    width: 1400px;
+    height: 700px;
+    object-fit: cover;
+    object-position:top;
+    flex-shrink: 0;
+    border-radius: 30px;
+}
+.p1{
+    position: absolute;
+    top:320px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2.76px;
+    left: 180px;
+}
+
+.p2{
+    position: absolute;
+    top:340px;
+    left: 180px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    flex-shrink: 0;
+}
+
+.p2-span{
+    background: linear-gradient(90deg, #4CE0D7 43.06%, #8BA9F4 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Poppins;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.p3{
+    text-align: start;
+    width: 470px;
+    position: absolute;
+    left: 180px;
+    top: 450px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
